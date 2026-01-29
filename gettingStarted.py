@@ -37,9 +37,9 @@ def welcome_assignment_answers(question):
                 answer = ("This is not my beautiful wife! This is not my beautiful car! "
                           "How did I get here?")
                 raise ValueError(answer)
+            return answer
         except EOFError:
-            pass
-        return answer
+            return
 # Complete all the questions.
 
 
